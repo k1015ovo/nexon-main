@@ -1,0 +1,777 @@
+.all{
+    position: relative;
+}
+
+/*상단 로고 메뉴텍스트*/
+.top-header-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #eaf2ff;
+    justify-content:space-around;
+}
+.top-menu-text-left, .top-menu-text-right{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    font-size: 12pt;
+    font-weight: 700;
+    font-family: 'NEXON Lv2 Gothic';
+}
+.top-menu-text-left a, .top-menu-text-right a{
+    text-decoration: none;
+    color: #4c4c4c;
+}
+.top-menu-text-left a:hover, .top-menu-text-right a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+}
+.top-logo-image{
+    width: 200px; height: 60px;
+    padding: 12px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-right: 180px;
+}
+.top-logo-image img{
+    width: 100%; height: 100%;
+    object-fit: contain;
+}
+
+/*메인배너이미지*/
+.main-benner{
+    width: 100%; height: 800px;
+    margin-bottom: 50px;
+}
+/* .main-benner-image{
+    width: 100%; height: 100%;
+    object-fit: cover;
+} */
+.mySwiper, .mySwiper img{
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+ .main-benner .swiper-button-next, .main-benner .swiper-button-prev{
+    color: #0078D7;
+ }
+
+/*중단 - 로그인 추천게임 신규게임*/
+.sub-header-box{
+    margin: auto;
+    max-width: 1800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 120px;
+}
+/*로그인*/
+.login-box{
+    font-family: 'NEXON Lv2 Gothic';
+    width: 33%; height: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 5px 0 5px;
+    margin-bottom: 50px;
+}
+.login-box-sub{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+.login-box a{
+    text-decoration: none;
+    color: inherit;
+}
+.login-box-maintitel{
+    background-color: #4c4c4c;
+    width: 70%;
+    padding: 20px;
+    color: white;
+    font-weight: 900;
+    font-size: 15pt;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.login-box-subtitel{
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color: #dbdbdb;
+    color: #4c4c4c;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 15pt;
+    display: flex;
+    gap: 20px;
+}
+
+.login-box-another{
+    display: flex;
+    gap: 90px;
+}
+.once-login-box, .qr-login-box{
+    display: flex;
+    width: 170px; height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.qr-login-box{
+    gap: 10px;
+}
+.nexonplogin{
+    width: 20%; height: 50%;
+    object-fit: cover;
+}
+.login-bot-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    color: #4c4c4c;
+    gap: 50px;
+}
+
+/*추천게임-엘소드*/
+.els-box{
+    margin: auto;
+    position: relative;
+    width: 33%;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.els-url{
+    text-decoration: none;
+    
+}
+.els-main{
+    display: flex;
+    width: 30%;
+    font-family: 'NEXON Lv2 Gothic';
+    font-weight: 900;
+    font-size: 20pt;
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+    white-space : nowrap;
+    padding: 10px 0 0 10px;
+    color: black;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+.els-box img{
+    margin-right: 10px;
+}
+.choice-game{
+    line-height: 30px;
+}
+.choice-game-text-main{
+    color: black;
+    font-size: 20pt;
+    font-weight: 800;
+    box-shadow: inset 0 -12px red;
+    text-shadow: 0 0 5px white;
+}
+.choice-game-text-sub{
+    color: #dbdbdb;
+    font-size: 10pt;
+}
+.choice-game-text-one{
+    color: red;
+    margin-bottom: 8px;
+    font-size: 15pt;
+}
+.choice-game-text-two{
+    font-size: 30pt;
+    text-shadow: 0 0 3px rgb(255, 0, 0);
+    color: white;
+    margin-bottom: 8px;
+}
+.choice-game-text-three{
+    margin-top: 30px;
+    font-size: 10pt;
+    color: #4c4c4c;
+    line-height: 16px;
+}
+.arrow{
+    display: flex;
+    gap: 5px;
+    width: 50px; height: 30px;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+.left, .right{
+    border: 1px solid black;
+    padding: 5px 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.left:hover, .right:hover{
+    border: none;
+    background-color: #0078D7;
+    cursor: pointer;
+    color: white;
+}
+.choice-game-bar{
+    text-align: center;
+}
+
+/*신규게임-슈퍼바이브*/
+.supervibe-box{
+    position: relative;
+    width: 33%;
+    gap: 10px;
+    justify-content: space-between;
+}
+.supervibe-url{
+    text-decoration: none;
+    width: 100%;
+}
+.new-game-text{
+    line-height: 20px;
+    width: 100%;
+}
+.new-game-text-main{
+    padding-top: 15px;
+    width: 30%;
+    font-family: 'NEXON Lv2 Gothic';
+    font-weight: 900;
+    font-size: 20pt;
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+    white-space : nowrap;
+    padding: 10px 0 0 10px;
+    color: black;
+    box-shadow: inset 0px -11px 0 0 #EF8AFF;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+.new-game-text-sub{
+    width: 100%;
+    margin: 5px 5px 005px 5px;
+    gap: 10px;
+    color: #dbdbdb;
+    font-family: 'NEXON Lv2 Gothic';
+    font-weight: 700;
+    font-size: 10pt;
+}
+.new-game-text-one{
+    width: 100%;
+    color: #EA00FF;
+    font-family: 'NEXON Lv2 Gothic';
+    font-weight: 800;
+    font-size: 23pt;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.new-game-text-two{
+    color: #00D6CB;
+    font-family: 'NEXON Lv2 Gothic';
+    font-weight: 800;
+    font-size: 23pt;
+    line-height: 33px;   
+}
+.new-game-image{
+    width: 50%;
+    margin-top: -80px;
+    position: absolute;
+}
+.new-game-date-text{
+    font-family: 'NEXON Lv2 Gothic';
+    font-weight: 800;
+    font-size: 10pt;
+    color: black;
+    padding-top: 20px;
+}
+.new-game-tester{
+    background-color: #FF00E5;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 10pt;
+}
+.new-game-image{
+    top:7px; left: 70px;
+    width: 50%; height: 124%;
+}
+.new-game-image img{
+    width: 100%; height: 100%;
+}
+
+/*컨텐츠*/
+.creater-content{
+    max-width: 1500px;
+    margin: auto;
+}
+.creater-content-text{
+    box-shadow: inset 0px -40px 0 0#05FFEA;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20px;
+}
+.creater-main-title{
+    display: grid;
+    align-items: center;
+    position: relative;
+    font-family: 'NEXON Lv2 Gothic';
+    font-size: 30pt;
+    font-weight: 900;
+    text-shadow: 0 0 5px white;
+}
+.creater-sub-title{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    color: #dbdbdb;
+    font-family: 'NEXON Lv2 Gothic';
+    font-size: 10pt;
+    font-weight: 900;
+}
+.creater-content-youtube-box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+/*유튜브 아이콘*/
+.fa-youtube{
+    font-size: 40pt;
+}
+
+.creater-reva, .creater-kog, .creater-blueaca{
+    width: calc((100% - 60px)/3);
+}
+
+/*레바 유튜브*/
+.creater-reva{
+    position: relative;
+    border: 10px solid red;
+    border-radius: 30px;
+}
+.reva-hot-icon{
+    position: absolute;
+    top: -15px; left: -25px;
+    background-color: red;
+    width: 60px; height: 30px;
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 0px 5px 0px 5px;
+}
+.reva-youtube-link{
+    text-decoration: none;
+    font-family: 'NEXON Lv2 Gothic';
+}
+.reva-youtube-link img{
+    border-radius: 20px;
+    width: 100%;
+}
+.reva-youtube-icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.reve-youtube-title{
+    line-height: 60px;
+    font-size: 30pt;
+    color: black;
+    font-weight: 800;
+}
+.reva-youtube-tage{
+    color: #dbdbdb;
+    line-height: 20px;
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-weight: 800;
+    gap: 20px;
+}
+
+/*코그 유튜브*/
+.creater-kog{
+    position: relative;
+    border: 10px solid #0078D7;
+    border-radius: 30px;
+}
+.update-icon{
+    position: absolute;
+    top: -15px; left: -25px;
+    background-color: #0078D7;
+    width: 60px; height: 30px;
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 0px 5px 0px 5px;
+}
+.kog-youtube-link {
+    text-decoration: none;
+    font-family: 'NEXON Lv2 Gothic';
+}
+.kog-youtube-link img{
+    border-radius: 20px;
+    width: 100%;
+}
+.kog-youtube-icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.kog-youtube-title{
+    line-height: 60px;
+    font-size: 30pt;
+    color: black;
+    font-weight: 800;
+}
+.kog-youtube-tage{
+    color: #dbdbdb;
+    line-height: 20px;
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-weight: 800;
+    gap: 20px;
+}
+
+/*블루아카이브 유튜브*/
+.creater-blueaca{
+    position: relative;
+    border: 10px solid #0078D7;
+    border-radius: 30px;
+}
+.update-icon{
+    position: absolute;
+    top: -15px; left: -25px;
+    background-color: #0078D7;
+    width: 60px; height: 30px;
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 0px 5px 0px 5px;
+}
+.blueaca-youtube-link {
+    text-decoration: none;
+    font-family: 'NEXON Lv2 Gothic';
+}
+.blueaca-youtube-link img{
+    border-radius: 20px;
+    width: 100%;
+}
+.blueaca-youtube-icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.blueaca-youtube-title{
+    line-height: 60px;
+    font-size: 30pt;
+    color: black;
+    font-weight: 800;
+}
+.blueaca-youtube-tage{
+    color: #dbdbdb;
+    line-height: 20px;
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-weight: 800;
+    gap: 20px;
+}
+
+/*전체 게임 메뉴*/
+.tab-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+
+.tab-menu-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tab-menu-row:first-child button {
+    padding: 8px 15px; /* 윗줄 버튼 크기 축소 */
+}
+
+.tab-menu button {
+    padding: 10px 20px;
+    border: 2px solid #0078D7;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0078D7;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-menu button:hover, .tab-menu button.active {
+    background-color: #0078D7;
+    color: white;
+}
+
+.content-box {
+    font-weight: 800;
+    max-width: 1980px;
+    margin: auto;
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+.content-box-text{
+    font-family: 'NEXON Lv2 Gothic';
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-left: 100px;
+}
+.content-box.active {
+    display: block;
+}
+.content-box h2{
+    font-family: 'NEXON Lv2 Gothic';
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 100px;
+}
+.game-list{
+    width: 90%;
+    margin: auto;
+}
+.game-list img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.game-list p{
+    position: absolute;
+    font-weight: 800;
+    font-size: 1.2rem;
+    top: 10px; left: 10px;
+    color: white;
+}
+.all-sub-text{
+    font-family: 'NEXON Lv2 Gothic';
+    font-size: 10pt;
+    position: absolute;
+    top: 35px; left: 10px;
+    color: #ffffff;
+}
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    text-shadow: 0 0 2px black;
+}
+.game-list div {
+    position: relative;
+    text-align: left;
+    width: 280px; height: 180px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    .tab-menu-row:first-child button {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+    }
+
+    .tab-menu button {
+        padding: 8px 15px;
+        font-size: 0.8rem;
+        min-width: 100px; /* 최소 너비 설정 */
+        flex: 1; /* 버튼이 줄을 나누어서 배치되도록 함 */
+    }
+
+    .game-list img {
+        width: 320px;
+        height: 60px;
+    }
+    
+    .game-list div {
+        width: 90px;
+    }
+
+    .content-box {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tab-menu-row {
+        flex-wrap: wrap; /* 버튼이 여러 줄로 나뉘게 함 */
+        gap: 5px;
+    }
+
+    .tab-menu button {
+        width: calc(50% - 10px); /* 모바일에서 버튼이 두 개씩 배치되도록 설정 */
+        padding: 10px;
+    }
+}
+.all-game-top-searchbar{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.search-bar:hover{
+    cursor: pointer;
+    border: none;
+    border-bottom: 3px solid blue;
+}
+.fa-magnifying-glass{
+    color: #4c4c4c;
+}
+.search-bar{
+    width: 350px;
+    border: none;
+    border-bottom: 3px solid #dbdbdb;
+    outline: none;
+}
+
+.game-list div:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    z-index: 50;
+}
+
+
+/*footer*/
+footer{
+    background-color: #eaf2ff;
+    font-weight: 800;
+    padding-left: 20px;
+}
+.footer-category-text{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+.footer-category-text a{
+    text-decoration: none;
+    color: #4c4c4c;
+}
+.footer-category-text a:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-weight: 900;
+}
+.footer-cate{
+    font-family: 'NEXON Lv2 Gothic';
+    font-size: 10pt;
+}
+.one{
+    padding-bottom: 20px;
+}
+.two{
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.one, .two{
+    display: flex;
+    gap: 15px;
+}
+.footer-imformation-text{
+    font-family: 'NEXON Lv2 Gothic';
+    display: block;
+    font-size: 8pt;
+    color: #4c4c4c;
+    line-height: 15px;
+    font-weight: 500;
+}
+.copy-text{
+    font-family: 'NEXON Lv2 Gothic';
+    color: #4c4c4c;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 8pt;
+}
+.footer-logo-image{
+    width: 100px; height: 80px;
+}
+.footer-logo-image img{
+    width: 100%; height: 100%;
+    object-fit: contain;
+}
+
+/*기타*/
+.anther-contents {
+    z-index: 10;
+    position: fixed;
+    top: 20%; /* 초기 위치를 지정 */
+    right: 10px; /* 오른쪽 여백 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.collaboration-benner img {
+    width: 180px; /* 이미지 크기, 필요시 수정 */
+    margin-bottom: 10px; /* 이미지와 메뉴 아이콘 사이의 간격 */
+    padding-bottom: 50px;
+  }
+  
+.all-manu-iconbox {
+    font-family: 'NEXON Lv2 Gothic';
+    font-weight: 800;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    border: 1px solid;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 7px;
+  }
+  
+.all-manu-iconbox a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px; /* 전체 메뉴 텍스트 크기 */
+    display: flex;
+    align-items: center;
+  }
+  
+.fa-bars{
+    padding-right: 15px;
+}
+.all-manu-iconbox:hover{
+    cursor: pointer;
+    background-color: #0078D7;
+    color: white;
+}
