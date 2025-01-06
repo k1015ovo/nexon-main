@@ -1,7 +1,9 @@
 .all{
     position: relative;
 }
-
+a{
+    text-decoration: none;
+}
 /*상단 로고 메뉴텍스트*/
 .top-header-box{
     width: 100%;
